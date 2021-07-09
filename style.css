@@ -87,6 +87,15 @@ h6, .h6 {
   width: 50px;
 }
 
+.logoLG img {
+  width: 100px !important;
+  max-width: unset !important;
+}
+
+#basic-addon2 {
+  border: unset;
+}
+
 /*
  * Blog name and description
  */
@@ -103,7 +112,7 @@ h6, .h6 {
 }
 .blog-description {
   font-size: 20px;
-  color: #999;
+  color: #8F952A;
 }
 
 
@@ -173,7 +182,7 @@ h6, .h6 {
   color: #999;
   text-align: center;
   border-top: 1px solid #e5e5e5;
-  background-image: url('./assets/images/footer.jpg');
+  background-image: url('./assets/images/footer1.jpg');
 }
 
 .blog-footer div img {
@@ -201,3 +210,18 @@ h6, .h6 {
   line-height: 75px;
   font-size: 30px;
 }
+
+.footer-title {
+  font-size: 45px;
+  color: white;
+}
+
+.footer-text {
+  text-align: left;
+}
+
+/* .wrapper {
+  @media (min-width: 1500px) {
+      width: 970px;
+  }
+} */
